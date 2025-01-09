@@ -1,0 +1,202 @@
+
+/* Inport Open Sans Font */
+
+.open-sans-normal{
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Secindary Background */
+.secondary-bg {
+  background-color: #FFF8F3;
+}
+
+.header {
+  background-image: url("../images/developer.png"), url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  /* background-color: #FFF8F3; */
+}
+/* NAV Style */
+nav {
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Margin left and right */
+    margin: 50px 200px;
+    /* background-color: white; */
+
+  /* background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  padding: 0.5rem 1rem; */
+}
+
+/* Make Nav list Flexible */
+nav ul {
+  display: flex;
+  align-items: center;
+  
+  /* list-style: none;
+  margin: 0;
+  padding: 0; */
+}
+
+/* Change Nev menu style */
+nav ul li {
+    display: flex;
+    margin-right: 50px;
+    /* margin: 0;
+    padding: 0; */
+}
+
+/* Nav Title Styling */
+.nav-title {
+  font-size: 45px;
+  font-weight: 800;
+  /* color: #343a40;
+  margin-right: auto; */
+}
+
+/* Font Dark 2 color  */
+.dark-2 {
+  color: #474747;
+}
+
+/* Shared Style */
+.text-primary {
+  color: #FD6E0A; 
+  /* font-size: 20px; */
+  font-weight: 700;
+  
+ /* margin-left: 1rem; */
+}
+
+/* More Shared font style */
+.text-secondary {
+  color: #757575;
+  /* font-size: 20px; */
+  font-weight: 400;
+}
+
+/* Button Style */
+.btn-primary {
+  background-color: #FD6E0A;
+  font-size: 20px;
+  color: white;
+  padding: 18px 35px;
+  border: none;
+  border-radius: 5px;
+ /* border-radius: 5px;
+  text-decoration: none; */
+}
+
+/* Remove nav menu hyperlink default color */
+nav li a {
+    text-decoration: none;
+    /* font-size: 20px; */
+    /* color: #343a40; */
+  }
+
+
+
+  /* Banner Styles  */
+
+  .banner{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin: 0 35px 0 200px; 
+    background-color: #FFF8F3;
+  }
+  .banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+    /* color: #474747; */
+    /*  margin-top: 100px; */
+  }
+
+    .banner-title {
+        font-size: 85px;
+        font-weight: 800;
+        /* color: #474747; */
+        /* margin-top: 20px; */
+    }
+    .banner-description {
+        font-size: 18px;
+        font-weight: 400;
+        color: #757575; 
+        /* margin-top: 20px; */
+    }
+
+    /* Set style for banner content */
+    .banner-content {
+        width: 585px;
+        
+    }
+
+    .banner-profile-pic {
+        width: 584px;
+        /* height: 300px;
+        border-radius: 50%;
+        margin-top: 50px; */
+    }
+
+    /* Style About Me */
+    .about {
+        display: flex; 
+        border-radius: 10px;
+        width: 70%; 
+        flex-direction: column;
+        position: center;
+        padding: 130px 150px;
+        /* height: 550px;  */
+        /* margin: 0 200px; */
+        
+        /* border-radius: 10px;  */
+    } 
+    .section-title {
+        font-size: 35px;
+        font-weight: 800;
+        color: #181818; 
+        text-align: center;
+        /* margin-top: 100px; */
+    }
+
+    .section-description{
+        font-size: 18px;
+        font-weight: 400;
+        color: #757575; 
+        /* margin-top: 20px; */
+        /* margin: 10%; */
+        
+    }
+
+    /* About me items */
+    .about-items {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+/* About me item description */
+    .item-description {
+        font-size: 18px;
+        font-weight: 800;
+        color: #474747; 
+        /* margin-top: 20px; */
+        /* margin: 10%; */
+        
+    }
+
+   
+    main
+    {
+        max-width: 1140px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
